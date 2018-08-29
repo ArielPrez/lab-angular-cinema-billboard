@@ -1,0 +1,28 @@
+<p>
+{{movie.room}} {{movie.title}}
+</p>
+<div>
+  <img src="{{movie.poster}}" alt="">
+  <span>Genre: </span> <ul *ngFor="let i of movie.genres">
+    <li>
+      {{i}}
+    </li>
+  </ul>
+  <p>Year: {{movie.year}}</p>
+  <p>Director: {{movie.director}} </p>
+  <span>Actors: </span>
+  <ul *ngFor="let i of movie.actors">
+    <li>
+      {{i}}
+    </li>
+  </ul>
+  <span>Schedule: </span>
+  <ul *ngFor="let i of movie.hours">
+    <li>
+      {{i}}
+    </li>
+  </ul>
+  <p> {{movie.synopsis}} </p>
+</div>
+
+<button (click)="goHome()">Back</button>

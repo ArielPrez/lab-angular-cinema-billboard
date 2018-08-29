@@ -1,4 +1,4 @@
-[
+const Moviez = [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -16,8 +16,11 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
-  }, {
+    ],
+    hours: [ "Monday at 5:00pm", "Thursday at 2:00pm", "Saturday at 8:00am" ],
+    room: 5
+  }, 
+  {
     id: 2,
     title: "The Godfather",
     poster: "https://i.imgur.com/Uzvny9I.jpg",
@@ -34,8 +37,11 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
-  }, {
+    ],
+    hours: [ "Wednesday at 1:00pm", "Tuesday at 7:00pm", "Sunday at 2:00am" ],
+    room: 4
+  }, 
+  {
     id: 3,
     title: "The Godfather Part II",
     poster: "https://i.imgur.com/abJNkWI.jpg",
@@ -52,8 +58,11 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
-  }, {
+    ],
+    hours: [ "Friday at 9:00pm", "Monday at 10:00am", "Thursday at 3:00am" ],
+    room: 3
+  }, 
+  {
     id: 4,
     title: "The Dark Knight",
     poster: "https://i.imgur.com/3jLPB46.jpg",
@@ -70,8 +79,10 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
-  }, {
+    ],
+    hours: [ "Monday at 3:00pm", "Thursday at 7:00pm", "Saturday at 6:00am" ],
+    room: 2
+  },
   {
     id: 5,
     title: "Schindler's List",
@@ -89,6 +100,9 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
-    ]
+    ],
+    hours: [ "Monday at 10:00pm", "Thursday at 11:00pm", "Saturday at 9:00am" ],
+    room: 1
   }
-]
+];
+export { Moviez };
